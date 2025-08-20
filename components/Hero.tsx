@@ -42,7 +42,7 @@ const Hero = () => {
           {/* Image wrapper */}
           <div className="hero-image-wrapper reveal-element order-2 col-span-2 md:col-span-1 flex justify-center md:justify-end">
             <img 
-              src="components\assets\images\hero\Vidi Hero.png" 
+              src="/images/hero/Vidi Hero.png" 
               alt="Vidisha Ravindranath Portrait" 
               className="rounded-lg shadow-2xl w-full max-w-[200px] sm:max-w-[240px] md:max-w-sm h-auto object-cover" 
             />

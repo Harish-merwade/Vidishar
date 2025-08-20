@@ -32,20 +32,20 @@ export const EXPERIENCE_DATA: Experience[] = [
 
 export const GALLERY_DATA: GalleryColumn[] = [
   [
-    "components/assets/images/Dance/Vidi 500x700 1.png",
-    "components/assets/images/Dance/vidi 500x350.png",
+    "/images/Dance/Vidi 500x700 1.png",
+    "/images/Dance/vidi 500x350.png",
   ],
   [
-    "components/assets/images/Dance/Vidi 500x300 2.png",
-    "components/assets/images/Dance/Vidi 500x750.png",
+    "/images/Dance/Vidi 500x300 2.png",
+    "/images/Dance/Vidi 500x750.png",
   ],
   [
-    "components/assets/images/Dance/Vidi 500x700 2.png",
-    "components/assets/images/Dance/Vidi 500x400.png",
+    "/images/Dance/Vidi 500x700 2.png",
+    "/images/Dance/Vidi 500x400.png",
   ],
   [
-    "components/assets/images/Dance/vidi 500x450.png",
-    "components/assets/images/Dance/Vidi 500x300 2.png",
+    "/images/Dance/vidi 500x450.png",
+    "/images/Dance/Vidi 500x300 2.png",
   ],
 ];
 
