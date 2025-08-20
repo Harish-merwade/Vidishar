@@ -47,7 +47,7 @@ function App() {
         <Experience />
         <Dance />
         <Gallery />
-        <Storybook />
+  {/* Storybook removed */}
       </main>
       <Footer />
     </>
