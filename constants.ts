@@ -6,7 +6,6 @@ export const NAV_LINKS: NavLink[] = [
   { href: '#experience', label: 'Experience' },
   { href: '#dance', label: 'Dance' },
   { href: '#gallery', label: 'Gallery' },
-  { href: '#my-book', label: 'My Book' },
 ];
 
 export const EXPERIENCE_DATA: Experience[] = [
