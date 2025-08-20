@@ -6,7 +6,6 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Dance from './components/Dance';
 import Gallery from './components/Gallery';
-import Storybook from './components/Storybook';
 import Footer from './components/Footer';
 
 function App() {
