@@ -21,8 +21,39 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col items-center">
         {/* Wrapper for text and image */}
-        <div className="w-full grid grid-cols-5 md:grid-cols-2 items-center gap-4 md:gap-12">
-          
+        {/* Mobile layout only */}
+        <div className="w-full flex flex-col items-center gap-4 md:hidden">
+          <div className="hero-image-wrapper reveal-element w-full flex justify-center mb-6">
+            <img 
+              src="/images/hero/Vidi Hero.png" 
+              alt="Vidisha Ravindranath Portrait" 
+              className="rounded-lg shadow-2xl w-full max-w-[250px] h-auto object-cover"
+              style={{ width: '100%', maxWidth: '250px', height: 'auto' }}
+            />
+          </div>
+          <div className="stagger-children text-center w-full">
+            <h1 
+              className="font-playfair text-4xl font-semibold leading-tight text-charcoal"
+              style={{ fontSize: '8vw', maxWidth: '100%', lineHeight: '1.1' }}
+            >
+              Vidisha Ravindranath
+            </h1>
+            <div 
+              className="text-xl font-playfair text-accent italic h-12 mt-2 relative"
+              style={{ fontSize: '8vw', maxWidth: '100%' }}
+            >
+              <span className="dynamic-text-container">
+                <span className="dynamic-text">Political Consultant.</span>
+                <span className="dynamic-text">Classical Dancer.</span>
+              </span>
+            </div>
+            <p className="mt-6 text-base max-w-md mx-auto">
+              Shaping narratives through strategic communication and expressing stories through the discipline of dance.
+            </p>
+          </div>
+        </div>
+        {/* Desktop layout only */}
+        <div className="w-full hidden md:grid grid-cols-5 md:grid-cols-2 items-center gap-4 md:gap-12">
           {/* Text content */}
           <div className="stagger-children text-left order-1 col-span-3 md:col-span-1">
             <h1 className="font-playfair text-4xl md:text-6xl font-semibold leading-tight text-charcoal">
@@ -38,13 +69,12 @@ const Hero = () => {
               Shaping narratives through strategic communication and expressing stories through the discipline of dance.
             </p>
           </div>
-
           {/* Image wrapper */}
           <div className="hero-image-wrapper reveal-element order-2 col-span-2 md:col-span-1 flex justify-center md:justify-end">
             <img 
               src="/images/hero/Vidi Hero.png" 
               alt="Vidisha Ravindranath Portrait" 
-              className="rounded-lg shadow-2xl w-full max-w-[200px] sm:max-w-[240px] md:max-w-sm h-auto object-cover" 
+              className="rounded-lg shadow-2xl w-full max-w-[200px] sm:max-w-[240px] md:max-w-sm h-auto object-cover"
             />
           </div>
         </div>
